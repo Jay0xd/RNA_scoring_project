@@ -43,7 +43,7 @@ def plot_interaction_profiles(all_scores, output_dir):
 
 # Example usage:
 if __name__ == "__main__":
-    scores_directory = "/Users/abdou/Desktop/m2/tp/Main_project/1st_res/"  # Replace with the actual path
+    scores_directory = "/Users/abdou/Desktop/m2/tp/Main_project/score_output_profiles/"  # Replace with the actual path
     output_directory = "/Users/abdou/Desktop/m2/tp/Main_project/plot_"  # Replace with the desired output path
     all_scores_data = read_scores(scores_directory)
     plot_interaction_profiles(all_scores_data, output_directory)

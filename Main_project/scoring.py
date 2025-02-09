@@ -5,8 +5,8 @@ def read_scores(directory):
     """Reads score files and returns data as a dictionary."""
     all_scores = {}
     for filename in os.listdir(directory):
-        if filename.endswith("_scores.txt"):
-            base_pair = filename.replace("_scores.txt", "")
+        if filename.endswith("_scores"):
+            base_pair = filename.replace("_scores", "")
             filepath = os.path.join(directory, filename)
             try:
                 with open(filepath, 'r') as f:

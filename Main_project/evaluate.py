@@ -59,7 +59,7 @@ def load_scores(scores_dir):
 
 if __name__ == "__main__":
     pdb_data_dir = "/Users/abdou/Desktop/m2/tp/Main_project/PDB_data/"  # Directory name
-    scores_dir = "/Users/abdou/Desktop/m2/tp/Main_project/1st_res"  
+    scores_dir = "/Users/abdou/Desktop/m2/tp/Main_project/score_output_profiles"  
 
     scores = load_scores(scores_dir)
     if not scores:
