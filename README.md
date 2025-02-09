@@ -17,3 +17,38 @@ The project consists of three main parts:
    python training.py
 ```
 Configure **RNA_pdb_folder** and **output_folder** in training.py.
+
+Evaluation:
+```Bash
+
+python evaluate.py
+```
+Set pdb_file and scores_dir in evaluate.py.
+
+Plotting:
+```Bash
+
+    python plot_profiles.py
+```
+    Set scores_directory and output_directory in plot_profiles.py.
+
+Files
+
+    training.py: Generates scoring profiles.
+    evaluate.py: Evaluates structures.
+    plot_profiles.py: Creates plots.
+    pdb_processing.py: Reads PDB files.
+
+Data
+
+    PDB files should be placed in the directory specified by RNA_pdb_folder in training.py.
+    Scoring profiles (output from training.py) should be used as input for evaluate.py and plot_profiles.py.
+
+Requirements
+
+    Python 3
+    matplotlib (pip install matplotlib)
+
+Author
+
+Your Name - Your Email
